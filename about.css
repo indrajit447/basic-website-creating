@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #61a094;
+  
+  }
+  
+  p{
+    font-size: 1.25rem;
+    line-height: 2;
+  }
+  
+  h1 {
+    margin: 50px auto 2.5rem auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.6875rem;
+    color: #2c786c;
+  
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #2c786c;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+  
+  }
+  .mountain{
+    margin: 0px;
+  }
+  #top-container {
+    background-color: #eff8f8;
+    position: relative;
+    padding-top: 100px;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+  }
+  
+  .top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 40px;
+  }
+.profile-img{
+    border-radius: 30%;
+    height: 200px;
+    width: 180px;
+    border: 2px solid lightseagreen;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #e95247;
+    border-width: 5px;
+    width: 3%;
+    margin: 100px auto;
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-1{
+    width: 25%;
+    float: left;
+    margin-right: 80px;
+}
+.skill-2{
+    width: 25%;
+    float: right;
+    margin-left: 80px;
+}
+.skill-3{
+    width: 25%;
+    float: left;
+    margin: 0 80px 0 0;
+}
+.intro{
+    width: 50%;
+    margin: auto;
+}
+.Contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+  color: black;
+}
+.lorem{
+  padding: 4%;
+  color: black;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #436b06;
+	background:linear-gradient(to bottom, #79bbff 5%, #e339cf 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#c91a1a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 35px;
+	text-decoration:none;
+	text-shadow:0px -9px 2px #ccb854;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e339cf 5%, #79bbff 100%);
+	background-color:#e339cf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+a{
+  margin: 10px;
+  display: inline-block;
+  color: #c91a1a;
+  text-decoration: none;
+  font-family: 'Sacramento', cursive;
+  font-size: 1.5vw;
+  font-weight: 900;
+}
+footer{
+  width: 100%;
+  height: 20vh;
+  background-color: #11999E;
+  margin-top: 80px;
+}
+.copyright{
+  color: black;
+}
